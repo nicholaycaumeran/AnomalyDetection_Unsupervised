@@ -4,7 +4,7 @@
 This project implements an unsupervised Isolation Forest model to detect anomalies in banking transaction withdrawals. The model identifies unusual patterns in withdrawal amounts and frequencies, which could indicate fraudulent or money laundering activities
 
 ## Data Information
-The data was extracted from a real Czech bank with real transactional data from 1993 to 1999. There are 1,056,320 rows in this dataset.
+The data was extracted from a Czech bank with real transactional data from 1993 to 1999. There are 1,056,320 rows in this dataset.
 The variables/features used for the model are as follows and are crucial in spotting outliers that deviate from normal transaction behaviors:
 - 5-day cumulative withdrawal amounts (sum_5days)
 - 5-day withdrawal frequency (count_5days)
